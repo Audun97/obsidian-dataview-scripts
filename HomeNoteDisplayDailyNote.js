@@ -1,3 +1,8 @@
+/**
+ * This script is used to display daily notes for the current and previous day along with a link to them.
+ * The daily note's file name should match the date in "YYYY-MM-DD" format
+ */
+
 // Import the moment library to handle dates
 const today = moment().format("YYYY-MM-DD"); // Get today's date in "YYYY-MM-DD" format
 const yesterday = moment().subtract(1, 'days').format("YYYY-MM-DD"); // Get yesterday's date in "YYYY-MM-DD" format
